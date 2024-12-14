@@ -24,7 +24,7 @@ Detailed explanation can be found in the example file.
 Dependency: `ncurses`
 ### Build & install
 ```
-git clone https://github.com/pondda/paneru.git
+git clone git@github.com:pondda/paneru.git
 cd paneru
 make && sudo make install
 ```
