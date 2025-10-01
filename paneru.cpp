@@ -183,7 +183,8 @@ void Panel::addCmdRunners(std::vector<RunnerConf *> confs) {
 
 void Panel::initCols() {
 	start_color();
-	init_pair(1, COLOR_CYAN, COLOR_BLACK);
+	use_default_colors();
+	init_pair(1, COLOR_CYAN, -1);
 }
 
 void Panel::setBRunMain(bool *_bRunMain) {
